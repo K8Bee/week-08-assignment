@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
+/* use the :root to set up your css variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* use the @theme to set up your Tailwind custom utitlity classes (optional) */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
