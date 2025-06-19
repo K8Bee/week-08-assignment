@@ -1,1 +1,1 @@
-// set up your db pool and connection string
+//todo set up my db pool and connection string
