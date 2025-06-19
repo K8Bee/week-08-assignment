@@ -1,6 +1,7 @@
 ## Plan your wireframe --> Ok so, Excalidraw
 
 What does my app look like from the user's perspective?
+![wireframe](wireframe.png)
 
 ## Plan your database schema --> DrawSQL OR Figma UML diagrams
 
@@ -17,3 +18,5 @@ Use the SQL editor to create your tables and insert seed data (add them to a see
 You can also use the seed.js file to create and seed your tables
 
 ## Upload to GitHub and deploy to Vercel
+
+- Done
