@@ -1,4 +1,6 @@
-//todo Post Id Page
+// Post Id Page - dynamic route
+// creating dynamic route called post Id
+// where each individual post will be dynamically rendered
 
 export default function PostIdPage() {
   // todo: get the data from the database for each individual post to render them dynamically

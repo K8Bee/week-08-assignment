@@ -1,9 +1,24 @@
+<!-- Git flow:
+ starting from terminal, when in git:(main), type:
+ git checkout -b newBranchName
+ git add .
+ git commit -m "commit message"
+ git push --set-upstream origin newBranchName
+ Then go to the GitHub repo and click: "compare & pull request", then "create pull request", then "merge pull request", then "confirm merge", then "delete branch"
+ back in terminal, type:
+ git checkout main
+ git pull
+ Note: can start a new branch straight away, or make changes and then create the branch as above just before adding, pushing, pulling, deleting the branch
+ -->
+
 ## Plan your wireframe --> Ok so, Excalidraw
 
-What does my app look like from the user's perspective?
-![wireframe](wireframe.png)
+- What does my app look like from the user's perspective?
+- ![wireframe](wireframe.png)
 
 ## Plan your database schema --> DrawSQL OR Figma UML diagrams
+
+- DrawSQL
 
 ## What data do I need to store?
 
