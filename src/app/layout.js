@@ -1,5 +1,11 @@
+//this is the blueprint, layout structure
+
 import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
+// import and add header here so it is added on every page (not home page as would just be in the home page then)
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,10 +25,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* whatever is written in the body here, is going to be the structure of the page i.e. having header above children here makes the header show above any children in any page*/}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header />
+        {/* children is a placeholder and represents whatever is the content (everything in the return of each of the different page's function ) of any page - so don't need multiple children/ elements here, have folder system of pages in app folder instead*/}
         {children}
+        <Footer />
       </body>
     </html>
   );

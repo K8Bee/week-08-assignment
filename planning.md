@@ -23,9 +23,14 @@
 ## What data do I need to store?
 
 Based on the data, how many tables do I need to organise my data efficiently?
-If you have two or more tables, what's the relationship between them?
-How do I connect the tables? Do I need foreign keys? Do I need junction tables?
-Set up your tables in a database in Supabase
+
+- two tables, posts table to hold each of the books (posts) in the series and a comments table
+  If you have two or more tables, what's the relationship between them?
+- one to many
+  How do I connect the tables? Do I need foreign keys? Do I need junction tables?
+- foreign key no junction table
+  Set up your tables in a database in Supabase
+- then show schema
 
 ## Create a project (database), if you don't have one already
 
