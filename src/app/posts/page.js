@@ -29,7 +29,8 @@ export default async function PostsPage({ searchParams }) {
 
   return (
     <>
-      <h1>This is the posts page</h1>
+      <h1>The Louise Penny Three Pines book series as of 2025</h1>
+      <h3>Click to learn more, comment, and enjoy!</h3>
       <Link href={"/posts?sort=asc"}>Sort Asc</Link>
       <Link href={"/posts?sort=desc"}>Sort Desc</Link>
       <Link href={"/posts"}>Reset</Link>
