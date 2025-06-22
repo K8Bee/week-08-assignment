@@ -28,7 +28,7 @@ Based on the data, how many tables do I need to organise my data efficiently?
   If you have two or more tables, what's the relationship between them?
 - one to many
   How do I connect the tables? Do I need foreign keys? Do I need junction tables?
-- foreign key no junction table
+- foreign key no junction table, connect posts table to comments table by
   Set up your tables in a database in Supabase
 - then show schema
 
